@@ -73,7 +73,8 @@ graph TD
 
 ### Mathematical Specifications
 - **Objective Loss Function:** Binary Cross-Entropy
-  $$\mathcal{L}(y, \hat{y}) = -rac{1}{N} \sum_{i=1}^N \left[ y_i \log(\hat{y}_i) + (1 - y_i) \log(1 - \hat{y}_i) ight]$$
+  $$\mathcal{L}(y, \hat{y}) = -rac{1}{N} \sum_{i=1}^N \left[ y_i \log(\hat{y}_i) + (1 - y_i) \log(1 - \hat{y}_i) 
+ight]$$
 - **Optimization Strategy:** Adam Optimizer with Adaptive Learning Rate Decay (Initial $lpha = 10^{-3}$, $eta_1 = 0.9$, $eta_2 = 0.999$).
 - **Activation Functions:** 
   - Hidden Layers: Rectified Linear Unit $	ext{ReLU}(z) = \max(0, z)$
@@ -139,7 +140,7 @@ Cancer-Classification-ANN/
 
 ```bash
 # 1. Clone repository
-git clone https://github.com/muhammadokashapak/Cancer-Classification-ANN.git
+git clone https://github.com/okashaxortlogix/Cancer-Classification-ANN.git
 cd Cancer-Classification-ANN
 
 # 2. Set up virtual environment
@@ -160,7 +161,7 @@ jupyter notebook Cancer_Classification_using_ANN.ipynb
 **Muhammad Okasha**  
 *AI & Machine Learning Specialist | Full-Stack Architect*  
 - **GitHub:** [@muhammadokashapak](https://github.com/muhammadokashapak)
-- **Repository:** [Cancer-Classification-ANN](https://github.com/muhammadokashapak/Cancer-Classification-ANN)
+- **Repository:** [Cancer-Classification-ANN](https://github.com/okashaxortlogix/Cancer-Classification-ANN)
 
 ---
 
